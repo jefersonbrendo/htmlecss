@@ -3,4 +3,4 @@
 
 Estou gerenciando meus repositórios
 
-<a href="https://jefersonbrendo.github.io/htmlecss/exercicios/ex002/index.html" target="_blank">Executar o exercício 01</a>
+<a href="https://jefersonbrendo.github.io/htmlecss/exercicios/ex001/index.html" target="_blank">Executar o exercício 01</a>
