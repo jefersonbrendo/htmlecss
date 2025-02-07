@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, in(polegada), px(recomendado), pt, pc
+            
+            Medidas relativas
+            em(recomendado), ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 400;
+            font-size: 3em;
+            font-style: normal;
+            /* shorthand font 
+            
+            - font-style -> font-weight -> font-size -> font-family*/
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime blanditiis quam, unde porro voluptates pariatur perferendis aliquam quis asperiores ipsam ducimus necessitatibus delectus sequi reiciendis optio, exercitationem explicabo doloribus! lore</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus minima nisi, rem deleniti ex velit quia temporibus, assumenda hic animi aut dolore obcaecati laboriosam doloribus nulla, autem veritatis molestiae?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia labore deserunt, harum magni maiores at saepe quasi alias, repellat dolorum, error sapiente! Nihil aut maiores voluptates adipisci sunt praesentium amet.</p>
+</body>
+</html>
